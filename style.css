@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d8c482;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  top:200px;
+}
+
+.sub-title {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.calculator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.date-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-weight: bold;
+  color: #495057;
+  margin-bottom: 10px; /* Add margin-bottom for spacing */
+}
+
+input[type="date"] {
+  width: calc(45% - 5px); /* Adjust width and subtract the margin width */
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-right: 20px; /* Add margin-right for spacing */
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, #c6138d, #0d8cc7);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Add margin-top for spacing */
+}
+
+
+.btn:hover {
+  background-color: #007bff;
+}
+
+.output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.output div {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.output span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.output p {
+  color: #868e96;
+}
